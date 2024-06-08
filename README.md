@@ -6,14 +6,17 @@ This is a slightly modified version of https://github.com/fritzlb/iOS17-JIT-WIN 
 Requirements are the same. Tested on 17.4 iphone 14 pro max.
 
 # usage
-.\Spawn_debugserver.py {Bundleid of the app you want to attach}
+>.\Spawn_debugserver.py {Bundleid of the app you want to attach}
+
 keep in mind you can only use developer certificates to sign those apps.
 
-run the python script from powershell, this will create the debugserver then you can use:
+run the python script from powershell, this will create the debugserver and tell you the address/port then you can use:
 
-lldb
-gdb-remote [ipv6 adress]:port 
-attach -p pid
+>lldb
+>
+>gdb-remote [ipv6 adress]:port
+>
+>attach -p pid
 
 to connect and attach to the process
 
