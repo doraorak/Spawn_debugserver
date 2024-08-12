@@ -33,4 +33,5 @@ Or if you use JustDebugserver script
 >gdb-remote [ipv6 adress]:port
 >
 >process attach --name {name of the process} --waitfor.
+
 Then when you open the app it will start getting debugged immediately 
