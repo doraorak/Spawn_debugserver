@@ -27,6 +27,7 @@ run the python script from powershell, this will create the debugserver and tell
 to connect and attach to the process.
 
 Or if you use JustDebugserver script 
+>.\JustDebugserver.py
 
 >lldb
 >
