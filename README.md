@@ -16,7 +16,7 @@ JustDebugserver script only sets up the debugserver without launching any apps.
 
 keep in mind you can only use developer certificates to sign those apps.
 
-run the python script from powershell, this will create the debugserver and tell you the address/port then you can use:
+run the python script from powershell, this will create the debugserver and tell you the address/port & the PID of the app then you can use:
 
 >lldb
 >
